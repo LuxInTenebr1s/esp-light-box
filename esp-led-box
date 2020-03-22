@@ -1,0 +1,45 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>B:\KiCAD\projects\esp-light-box\esp-led-box.sch</h1>
+    <p>21.03.2020 20:56:17</p>
+    <p>Eeschema (5.1.5)-3</p>
+    <p><b>Component Count:</b>38</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1</td><td>1</td><td>10uF/25V</td><td>Device:C</td><td>Capacitor_SMD:C_1210_3225Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C2</td><td>1</td><td>0.1uF</td><td>Device:C</td><td>Capacitor_SMD:C_1206_3216Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C3</td><td>1</td><td>3.9nF</td><td>Device:C</td><td>Capacitor_SMD:C_1206_3216Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C4</td><td>1</td><td>10uF</td><td>Device:C</td><td>Capacitor_SMD:C_1210_3225Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C5</td><td>1</td><td>10nF</td><td>Device:C</td><td>Capacitor_SMD:C_1206_3216Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C6</td><td>1</td><td>22uF/6.3V</td><td>Device:C</td><td>Capacitor_SMD:C_1210_3225Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C7</td><td>1</td><td>100nF</td><td>Device:C</td><td>Capacitor_SMD:C_1206_3216Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C8</td><td>1</td><td>33uF</td><td>Device:C</td><td>Capacitor_SMD:C_1210_3225Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>D1, D2, D3, D4, D5</td><td>5</td><td>LED</td><td>Device:LED</td><td>LED_SMD:LED_1206_3216Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D6</td><td>1</td><td>D</td><td>Device:D</td><td>Diode_SMD:D_SOD-123</td><td>Diode</td><td></td></tr>
+    <tr><td>F1</td><td>1</td><td>Fuse</td><td>Device:Fuse</td><td>Fuse:Fuseholder_Blade_Mini_Keystone_3568</td><td>Fuse</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>Conn_01x03</td><td>Connector_Generic:Conn_01x06</td><td>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</td><td>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>Conn_01x03_Female</td><td>Connector:Conn_01x03_Female</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>Conn_01x02_Female</td><td>Connector:Conn_01x02_Female</td><td>esp-light-box:WG235-2P</td><td>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>L1</td><td>1</td><td>10uH</td><td>Device:L</td><td>Inductor_SMD:L_Abracon_ASPI-0630LR</td><td>Inductor</td><td></td></tr>
+    <tr><td>Q1</td><td>1</td><td>BSS138</td><td>Transistor_FET:BSS138</td><td>Package_TO_SOT_SMD:SOT-23</td><td>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</td><td></td></tr>
+    <tr><td>R1, R2, R5</td><td>3</td><td>120</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R3, R11</td><td>2</td><td>0</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R4</td><td>1</td><td>100K</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R6</td><td>1</td><td>6.8K</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R7</td><td>1</td><td>10K/1%</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R8, R9, R12, R13, R14, R15</td><td>6</td><td>10K</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R10</td><td>1</td><td>44.2K</td><td>Device:R</td><td>Resistor_SMD:R_1206_3216Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>MP2307</td><td>esp-led-box-rescue:MP2307-mp2307</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td></td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>LM3940</td><td>esp-led-box-rescue:LM3940-lm3940</td><td>Package_TO_SOT_SMD:SOT-223-3_TabPin2</td><td></td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>ESP-12F</td><td>esp-led-box-rescue:ESP-12F-ESP8266</td><td>ESP8266:ESP-12E</td><td></td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
