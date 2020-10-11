@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name esp-light-box)(type KiCad)(uri B:/KiCAD/projects/esp-light-box.pretty)(options "")(descr ""))
+  (lib (name esp-light-box)(type KiCad)(uri /home/lux/kikad/libraries/kicad-ESP8266)(options "")(descr ""))
 )
