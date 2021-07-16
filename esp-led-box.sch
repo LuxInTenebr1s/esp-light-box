@@ -998,13 +998,13 @@ F 4 "C2146" H 6900 9300 50  0001 C CNN "LCSC"
 	1    6900 9300
 	1    0    0    1   
 $EndComp
-Text Label 9850 8400 2    50   ~ 0
-GPIO0
 Text Label 9850 8700 2    50   ~ 0
-RESET
-Text Label 9850 8500 2    50   ~ 0
-TXD
+GPIO0
 Text Label 9850 8600 2    50   ~ 0
+RESET
+Text Label 9850 8400 2    50   ~ 0
+TXD
+Text Label 9850 8500 2    50   ~ 0
 RXD
 $Comp
 L power:+3.3V #PWR029
@@ -1753,23 +1753,23 @@ NoConn ~ 11150 2850
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 624C44C8
-P 10050 9050
-F 0 "J5" H 10130 9042 50  0000 L CNN
-F 1 "Conn_01x02" H 10130 8951 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10050 9050 50  0001 C CNN
-F 3 "~" H 10050 9050 50  0001 C CNN
-	1    10050 9050
-	1    0    0    -1  
+P 10050 9150
+F 0 "J5" H 10130 9142 50  0000 L CNN
+F 1 "Conn_01x02" H 10130 9051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10050 9150 50  0001 C CNN
+F 3 "~" H 10050 9150 50  0001 C CNN
+	1    10050 9150
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 624C9F56
-P 10050 8500
-F 0 "J1" H 10130 8492 50  0000 L CNN
-F 1 "Conn_01x04" H 10130 8401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10050 8500 50  0001 C CNN
-F 3 "~" H 10050 8500 50  0001 C CNN
-	1    10050 8500
-	1    0    0    -1  
+P 10050 8600
+F 0 "J1" H 10130 8592 50  0000 L CNN
+F 1 "Conn_01x04" H 10130 8501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10050 8600 50  0001 C CNN
+F 3 "~" H 10050 8600 50  0001 C CNN
+	1    10050 8600
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
